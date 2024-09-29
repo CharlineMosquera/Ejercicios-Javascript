@@ -41,7 +41,7 @@ switch (operation) {
   // en caso de que ingrese una operación incorrecta
   default:
     console.log("Ingreso una opción incorrecta");
-    break;
+    process.exit(0);
 }
 
 // imprime el resultado
